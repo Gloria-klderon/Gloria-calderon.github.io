@@ -1,0 +1,90 @@
+/* *{
+	padding: 0px;
+	margin: 0px;
+} */
+body{
+	font-family: 'Mogra', cursive;
+	background-color: rgb(132, 251, 255);
+}
+.contenedor{
+	width: 90%;
+	margin: 3px auto;
+}
+nav{
+	background-color: rgb(16, 51, 207);
+	color: rgb(255, 255, 255);
+	opacity: 0.7;
+}
+
+nav ul {
+padding: 0px;
+list-style: none;
+}
+/* NOTA PARA EL MENU EN LINEA */
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	font-size: 1.2em;
+	padding-right: 20px;
+	color: #94e0eef6;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: rgb(5, 5, 5);
+}
+
+header{
+	background-image: url(../imagenes/bright-retro-colors-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: rgb(0, 0, 0);
+	/* height: 400px; es algo parecido a min-heigth*/
+	text-align: center;
+	min-height: 400px;
+	font-size:  30px;
+	/* para la parte ded abajo una separacion */
+	margin-bottom: 50px; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 2;
+	
+}
+
+#izquierda{
+	width: 25%;
+	float: left;
+	/* para cuando modificas y se adapta con el box y el border-box */
+	padding: 5px 20px;
+	box-sizing: border-box;
+	background-color: rgb(255, 196, 247);
+	color: rgb(0, 0, 0);
+	text-align: justify;
+}
+#principal{
+	float: left;
+	width: 50%;
+
+	color: rgb(19, 18, 18);
+    text-align: center;
+	
+}
+main h2{
+	text-align: center;
+	background-color: rgb(115, 127, 230);
+	color: rgba(0, 0, 0, 0.822);
+}
+#derecha{
+	width: 25%;
+	float: left;
+	background-color: rgb(141, 247, 146);
+	color: rgb(0, 0, 0);
+
+}
+footer{
+	clear: both;
+	text-align: center;	
+	color: rgba(7, 7, 7, 0.733);
+}

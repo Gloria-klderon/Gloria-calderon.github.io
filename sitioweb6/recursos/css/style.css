@@ -1,0 +1,122 @@
+/*diseño flexiblecon flexbox */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.contenedor{
+    display: flex;
+
+}
+
+.contenedor nav ul li{
+    display: inline;
+    padding-right: 15px;
+    
+
+
+}
+.contenedor nav a{
+    text-decoration: none;
+
+}
+.contenedor nav a:hover{
+    color:rgb(222, 67, 243);
+}
+
+.contenedor .cabecera{
+    padding-top: 100px;
+    min-height: 400px;
+    background-image: url("../imagenes/imagen4.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:rgb(0, 0, 0);
+    font-size: 1.2em;
+    padding: 50px;
+}
+.c1, .c2{
+    background-color: rgb(172, 247, 247);
+    padding: 15px;
+
+ 
+}
+
+.uno{
+    background-color: aliceblue;
+    font-size: .6em;
+    text-align: center;
+    font-family:cursive;
+
+} 
+
+.dos{
+    background-color: aqua;
+    font-size: .6em;
+    font-family:Arial, Helvetica, sans-serif;
+
+} 
+
+.tres{
+    background-color: rgb(200, 159, 238);
+    font-size: .6em;
+    font-family:fantasy;
+ 
+
+} 
+
+.cuatro{
+    background-color: rgb(113, 243, 131);
+    font-size: .6em;
+    font-family: monospace;
+
+} 
+
+.cinco{
+    background-color: rgb(247, 242, 177);
+    font-size: .6em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main, .izq, .derecho{
+    border-bottom: 1px silver solid;
+    font-family: 'Cookie';
+    background-color: rgb(247, 205, 229);
+    border: 7px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+
+
+p{
+    margin: 5px;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: justify;
+
+
+}
+
+
+/*debemos aplicar una regla para que el contenedor se adapte al dispositivo (media query) */
+
+
+@media (max-width:600px){
+
+
+    div, .cabecera{
+
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+

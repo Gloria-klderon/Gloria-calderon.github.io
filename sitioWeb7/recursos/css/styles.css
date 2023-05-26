@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:rgb(248, 246, 126) ;
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: 5px auto;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*este es del sitio web 8*/
+.cabecera{
+    text-align: center;
+    background:url(../imagenes/banner.jpg);
+    background-size: cover;
+    height: 400px;
+    padding-top: 140px;
+    font-size: 1.6em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:cursive
+
+   
+}
+
+.video{
+    margin-top: 10px;
+    width: 450;
+}
+
+.item2{
+    width: 33%;
+    text-align: justify;
+    border-right: 2px rgb(104, 23, 12) outset;
+    margin: 2px;
+    padding: 5px;
+}
+
+ /*aqui termina el sitio web 8 */
+
+.logotipo{
+    width: 15%;
+}
+
+.menu{
+    width: 45%;
+}
+
+.botones{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedor .menu ul li{
+    display: inline-flex;
+    padding-right: 15px;
+    font-size: 1.2em;
+}
+
+a{
+    color: rgb(221, 7, 0);
+}
+.contenedor .menu ul li a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 233, 31);
+}
+
+.cajas{
+    background-color: rgb(187, 28, 0);
+    width: 150px;
+    height: 35px;
+    border: 1px rgb(187, 5, 5) solid;
+    border-radius: 5px;
+    color: rgb(255, 251, 14);
+}
+
+@media (max-width:600px) {
+    .contenedor{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .cabecera{
+    font-size: 1em;
+   }
+
+   .cabecera, .item, .producto, .item2, .video{
+    width: 100%;
+   }
+
+}
+
+.item{
+    width: 33.3%;
+    padding: 10px;
+    text-align: justify;
+    
+}
+
+h2{
+    color: rgb(143, 25, 4);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.producto{
+    width: 33.3%;
+    padding: 10px;
+}

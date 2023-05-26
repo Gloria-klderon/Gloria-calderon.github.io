@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+   color: #5c266d;
+    font-size: 1.5em;
+    background-color: rgba(151, 240, 210, 0.363);
+}
+
+.contenedor{
+    width: 90%;
+    margin: 3px auto;
+}
+
+
+nav{
+    padding-left: 600px;
+}
+nav a{
+    text-decoration:none;
+    color:#3d2247;
+    font-size:20px;
+    
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:7px 35px;
+    background-color:rgb(96, 63, 114);
+    border:2px solid rgb(252, 252, 252);
+    text-align:center;
+    color:#5c266d;
+  
+    
+    }
+ nav li:hover{
+    background-color:rgb(187, 130, 204);
+    color:#552969;
+    
+ }
+
+
+header{
+    background-image:url('../imagenes/acua.jpg');
+    height: 300px;
+    width: 100%;
+    padding-top:30px;
+    margin-bottom: 100px;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+#izquierdo{
+    float: left;
+    width: 50%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    background-color: rgb(193, 151, 248);
+    border-radius: 10px;
+    text-align: justify;
+
+    
+   
+    
+}
+
+
+#derecho{
+    float: left;
+    width: 50%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    background-color: rgb(195, 195, 248);
+    border-radius: 10px;
+    color:black;
+    border: 5px black;
+    text-align: justify;
+
+}
+
+#izquierdo1{
+    float: left;
+    width: 28%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    background-color: #74a8ac;
+    border-radius: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    border: 5px black;
+    text-align: center;
+    
+   
+    
+}
+#principal{
+    float: left;
+    width: 45%;  
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 5px black;
+   text-align: justify;
+   text-align: center;
+
+   
+}
+
+#derecho1{
+    float: left;
+    width: 27%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding-bottom: 20px;
+    border: 5px black;
+    background-color: #aa9cac;
+    text-align: center;
+}
+
+
+#pie{
+    clear: both;
+    text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px ;
+    
+}

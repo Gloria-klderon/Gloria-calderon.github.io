@@ -1,0 +1,115 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    font-family: Josefin+Sans;
+    font-size: 1.5em;
+    background-image: url("../imagenes/banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#contenedor{
+    width: 90%;
+    margin: 2px auto;
+    background-size: 400px 400px;
+
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:18px;
+    } 
+    nav li{
+    display:inline;
+    width:25%;
+    padding:5px 40px;
+    background-color:rgb(3, 3, 3);
+    border:1px solid #000;
+    text-align:center;
+    color:rgb(0, 223, 223);
+    
+    }
+    nav li:hover{
+    background-color:rgb(225, 247, 250);
+    color:#000;
+    }
+    nav ul{
+        float: right;
+        margin-right: 5px;
+        display: inline;
+    }
+    nav ul{
+        line-height: 30px;
+        margin: 5px 15px;
+        text-align: center;
+        margin: 1%;
+        padding: 7px 15px;
+
+    
+    }
+    .section{
+        text-align: center;
+    }
+
+    article{
+        border:1px solid rgb(7, 7, 7);
+        border-radius: 10px 20px 25px 50px;
+        margin-top: 10px;
+        background-color: rgb(206, 252, 252);
+                border:1px solid rgb(7, 7, 7);
+    }
+    p{
+        padding: 5px 10px;
+        font-size: 14;
+
+  
+    }
+    .segundo{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .formu{
+        background-color: rgb(157, 222, 241);
+        width: 500px; 
+        border-radius: 10px;
+        height: 370px;
+        margin-left: 340px;
+        text-align: center;
+        background: linear-gradient(rgb(145, 203, 248), rgb(34, 43, 46));
+       
+     
+       
+       
+
+    }
+    .form{
+        text-align: center;
+        font-size: 2%;
+        background-color:rgb(11, 12, 12)
+        
+    }
+
+    .centrar{
+        width: 40%;
+        margin: 0px auto;
+        border-radius: 10px 20px 25px 50px;
+        border: 2px;
+        display: block;
+    
+
+    }
+    
+
+
+
+
+
+
+
